@@ -14,12 +14,6 @@ public class Jogador {
 		return posicao = posicao + d.jogarDado();
 	}
 	
-	public int jaGanhou(int posicao, int Final) {
-		if(posicao == Final) 
-		return 1;
-		return 0;
-	}
-	
 	public void setNome (String nome)
 	{	this.nome = nome;
 	}
